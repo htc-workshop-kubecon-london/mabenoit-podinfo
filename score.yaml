@@ -11,7 +11,7 @@ containers:
     image: .
     variables:
       PODINFO_UI_COLOR: "#34577c"
-      PODINFO_UI_MESSAGE: ""
+      PODINFO_UI_MESSAGE: "Test"
 resources:
   dns:
     type: dns
