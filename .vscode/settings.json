@@ -1,0 +1,5 @@
+{
+    "humanitec.environment": "development",
+    "humanitec.application": "mabenoit-podinfo",
+    "humanitec.organization": "workshop-kubecon-london"
+}
