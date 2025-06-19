@@ -5,7 +5,14 @@ metadata:
   annotations:
     "humanitec.com/orgId": "workshop-kubecon-london"
     "humanitec.com/appId": "mabenoit-podinfo"
+  tags:
+    - go
+    - website
+  links:
+    - url: https://github.com/htc-workshop-kubecon-london/mabenoit-podinfo
+      title: Podinfo demo repo
+      icon: help
 spec:
-  type: service
+  type: website
   owner: user:guest
   lifecycle: experimental
