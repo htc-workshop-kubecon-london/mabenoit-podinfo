@@ -11,8 +11,11 @@ containers:
     image: .
     variables:
       PODINFO_UI_COLOR: "#34577c"
-      PODINFO_UI_MESSAGE: ""
+      PODINFO_UI_MESSAGE: "Welcome!"
+      REDIS_ADDR: "${resources.my-redis.host}:${resources.my-redis.port},user=${resources.my-redis.username},password=${resources.my-redis.password}"
 resources:
+  my-redis:
+    type: redis
   dns:
     type: dns
   route:
